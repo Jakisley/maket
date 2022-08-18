@@ -3,10 +3,12 @@
 
 <head>
   <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="maketstyles.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Revalia&family=Roboto:wght@300&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Revalia&family=Roboto:wght@500&display=swap" rel="stylesheet">
 </head>
 
 <body>
@@ -15,7 +17,7 @@
       <a href="#" class="header-menu__logo">WD</a>
       <nav class="header-menu__list">
         <li class="header-menu__list-element">
-          <a href="#" class="header-menu__link">ГЛАВНАЯ</a>
+          <a href="#" class="header-menu__link selected">ГЛАВНАЯ</a>
         </li>
         <li class="header-menu__list-element">
           <a href="#" class="header-menu__link">ОБ АВТОРЕ</a>
@@ -37,12 +39,14 @@
   </header>
   <main>
     <section class="design__layout">
-      <img class="design-layout__laptop" src="img/laptop.png" alt="laptop">
-      <div class="design-layout__info">
-        <h1 class="design-layout__info-caption">Дизайн и верстка</h1>
-        <p class=" lorem__ipsum design-layout__info-text">Lorem Ipsum - это текст-"рыба", часто используемый в печати и <br>
-          вэб-дизайне. Lorem Ipsum является стандартной "рыбой" для текстов <br> на латинице с начала XVI века.</p>
-        <input class="blue__btn" type="button" value="НАПИСАТЬ МНЕ">
+      <div class ="design-layout-content">
+        <img class="design-layout__laptop" src="img/laptop.png" alt="laptop">
+        <div class="design-layout__info">
+          <h1 class="design-layout__info-caption">Дизайн и верстка</h1>
+          <p class=" lorem__ipsum design-layout__info-text">Lorem Ipsum - это текст-"рыба", часто используемый в печати и <br>
+            вэб-дизайне. Lorem Ipsum является стандартной "рыбой" для текстов <br> на латинице с начала XVI века.</p>
+          <input class="blue__btn" type="button" value="НАПИСАТЬ МНЕ">
+        </div>
       </div>
     </section>
 
@@ -53,72 +57,76 @@
         "рыбой" для текстов на латинице с начала XVI века.</p>
     </section>
     <section class="projects">
-      <div class="project__container">
-        <img src="img/projectIcon.png" alt="project" class="project-container__icon">
-        <div class="project-container__description">
-          <h3>40+</h3>
-          <p>проектов</p>
-        </div>
-      </div>
-
-      <div class="project__container">
-        <img src="img/projectIcon.png" alt="project" class="project-container__icon">
-        <div class="project-container__description">
-          <h3>40+</h3>
-          <p>проектов</p>
-        </div>
-      </div>
-
-      <div class="project__container">
-        <img src="img/projectIcon.png" alt="project" class="project-container__icon">
-        <div class="project-container__description">
-          <h3>40+</h3>
-          <p>проектов</p>
-        </div>
-      </div>
-
-      <div class="project__container">
-        <img src="img/projectIcon.png" alt="project" class="project-container__icon">
-        <div class="project-container__description">
-          <h3>40+</h3>
-          <p>проектов</p>
+      <div class="projects_content">
+        <div class="project__container">
+          <img src="img/projectIcon.png" alt="project" class="project-container__icon">
+          <div class="project-container__description">
+            <h3>40+</h3>
+            <p>проектов</p>
+          </div>
         </div>
 
-      </div>
-      <div class="project__container">
-        <img src="img/projectIcon.png" alt="project" class="project-container__icon">
-        <div class="project-container__description">
-          <h3>40+</h3>
-          <p>проектов</p>
+        <div class="project__container">
+          <img src="img/projectIcon.png" alt="project" class="project-container__icon">
+          <div class="project-container__description">
+            <h3>40+</h3>
+            <p>проектов</p>
+          </div>
         </div>
-      </div>
 
-      <div class="project__container">
-        <img src="img/projectIcon.png" alt="project" class="project-container__icon">
-        <div class="project-container__description">
-          <h3>40+</h3>
-          <p>проектов</p>
+        <div class="project__container">
+          <img src="img/projectIcon.png" alt="project" class="project-container__icon">
+          <div class="project-container__description">
+            <h3>40+</h3>
+            <p>проектов</p>
+          </div>
         </div>
-      </div>
+
+        <div class="project__container">
+          <img src="img/projectIcon.png" alt="project" class="project-container__icon">
+          <div class="project-container__description">
+            <h3>40+</h3>
+            <p>проектов</p>
+          </div>
+
+        </div>
+        <div class="project__container">
+          <img src="img/projectIcon.png" alt="project" class="project-container__icon">
+          <div class="project-container__description">
+            <h3>40+</h3>
+            <p>проектов</p>
+          </div>
+        </div>
+
+        <div class="project__container">
+          <img src="img/projectIcon.png" alt="project" class="project-container__icon">
+          <div class="project-container__description">
+            <h3>40+</h3>
+            <p>проектов</p>
+          </div>
+        </div>
+    </div>
     </section>
     <section class="skills">
-      <div class="skills__tehnology">
-        <h2>Мои навыки</h2>
-        <p class="skills-tehnology__text">Adope Photoshop</p>
-        <div class="skills-tehnology__level-gray"></div>
-        <div class="skills-tehnology__level-blue"></div>
+      <div class ="skills-content">
+        <div class="skills__tehnology">
+          <h2>Мои навыки</h2>
+          <p class="skills-tehnology__text">Adope Photoshop</p>
+          <div class="skills-tehnology__level-gray"></div>
+          <div class="skills-tehnology__level-blue"></div>
 
-        <p class="skills-tehnology__text">Adope Photoshop</p>
-        <div class="skills-tehnology__level-gray"></div>
-        <div class="skills-tehnology__level-blue"></div>
+          <p class="skills-tehnology__text">Adope Photoshop</p>
+          <div class="skills-tehnology__level-gray"></div>
+          <div class="skills-tehnology__level-blue"></div>
 
-        <p class="skills-tehnology__text">Adope Photoshop</p>
-        <div class="skills-tehnology__level-gray"></div>
-        <div class="skills-tehnology__level-blue"></div>
+          <p class="skills-tehnology__text">Adope Photoshop</p>
+          <div class="skills-tehnology__level-gray"></div>
+          <div class="skills-tehnology__level-blue"></div>
 
-
+        </div>
+      
+        <img class="skills__me-img" src="img/me.png" alt="me">
       </div>
-      <img class="skills__me-img" src="img/me.png" alt="me">
     </section>
     <section class="how-i-work">
       <h2>Как я работаю</h2>
@@ -200,15 +208,17 @@
     </section>
   </main>
   <footer>
-    <div class="footer__container">
-      <h3>Иванов Иван</h3>
-      <p class="footer-container__text">(с) 2018. Все права защищены.</p>
+    <div class ="footer__content">
+      <div class="footer__container">
+        <h3>Иванов Иван</h3>
+        <p class="footer-container__text">(с) 2018. Все права защищены.</p>
+      </div>
+      <nav class="footer__social">
+        <li class="footer-social__li"><img class="footer-social__icon" src="img/vkIcon.png" alt="vk"><li>
+        <li class="footer-social__li"><img class="footer-social__icon" src="img/vkIcon.png" alt="vk"><li>
+        <li class=" footer-social__li margin-none"><img class="footer-social__icon" src="img/vkIcon.png" alt="vk"><li>
+      </nav>
     </div>
-    <nav class="footer__social">
-      <li class="footer-social__li"><img class="footer-social__icon" src="img/vkIcon.png" alt="vk"><li>
-      <li class="footer-social__li"><img class="footer-social__icon" src="img/vkIcon.png" alt="vk"><li>
-      <li class=" footer-social__li margin-none"><img class="footer-social__icon" src="img/vkIcon.png" alt="vk"><li>
-    </nav>
   </footer>
 </body>
 
