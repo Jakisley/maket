@@ -5,218 +5,218 @@
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="maketstyles.css">
+  <link rel="stylesheet" href="./maketstyles.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Revalia&family=Roboto:wght@500&display=swap" rel="stylesheet">
 </head>
 
 <body>
-  <header>
-    <div class="header__menu">
+  <header class="page-header">
+    <div class="header-menu">
       <a href="#" class="header-menu__logo">WD</a>
       <nav class="header-menu__list">
-        <li class="header-menu__list-element">
-          <a href="#" class="header-menu__link selected">ГЛАВНАЯ</a>
-        </li>
-        <li class="header-menu__list-element">
-          <a href="#" class="header-menu__link">ОБ АВТОРЕ</a>
-        </li>
-
-        <li class="header-menu__list-element">
-          <a href="#" class="header-menu__link">РАБОТЫ</a>
-        </li>
-
-        <li class="header-menu__list-element">
-          <a href="#" class="header-menu__link">ПРОЦЕСС</a>
-        </li>
-
-        <li class="header-menu__list-element margin-none">
-          <a href="#" class="header-menu__link">КОНТАКТЫ</a>
-        </li>
+        <a href="#" class="header-menu__link header-menu__link--selected">ГЛАВНАЯ</a>
+        <a href="#about" class="header-menu__link">ОБ АВТОРЕ</a>
+        <a href="#" class="header-menu__link">РАБОТЫ</a>
+        <a href="#" class="header-menu__link">ПРОЦЕСС</a>
+        <a href="#" class="header-menu__link">КОНТАКТЫ</a>
       </nav>
     </div>
   </header>
   <main>
-    <section class="design__layout">
-      <div class ="design-layout-content">
-        <img class="design-layout__laptop" src="img/laptop.png" alt="laptop">
-        <div class="design-layout__info">
-          <h1 class="design-layout__info-caption">Дизайн и верстка</h1>
-          <p class=" lorem__ipsum design-layout__info-text">Lorem Ipsum - это текст-"рыба", часто используемый в печати и <br>
-            вэб-дизайне. Lorem Ipsum является стандартной "рыбой" для текстов <br> на латинице с начала XVI века.</p>
-          <input class="blue__btn" type="button" value="НАПИСАТЬ МНЕ">
+    <section class="design-section__container">
+      <div class="design-section__content-wrapper">
+        <img class="design-section__laptop-img" src="images/laptop.png" alt="laptop">
+        <div class="design-section__text-container">
+          <h1 class="design-section__title">Дизайн и верстка</h1>
+          <p class="pharagraph design-section__text">Lorem Ipsum - это текст-"рыба", часто используемый в печати и
+            вэб-дизайне. Lorem Ipsum является стандартной "рыбой" для текстов на латинице с начала XVI века.</p>
+          <button class="btn">НАПИСАТЬ МНЕ</button>
         </div>
       </div>
     </section>
 
-    <section class="about-me">
-      <h2 class="about-me__caption"> Обо мне </h2>
-      <p class="lorem__ipsum">Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. Lorem
+    <section class="about-me-section">
+      <a name = "about"></a>
+      <h2> Обо мне </h2>
+      <p class="pharagraph">Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. Lorem
         Ipsum является стандартной
         "рыбой" для текстов на латинице с начала XVI века.</p>
     </section>
-    <section class="projects">
-      <div class="projects_content">
-        <div class="project__container">
-          <img src="img/projectIcon.png" alt="project" class="project-container__icon">
-          <div class="project-container__description">
+    <section class="projects-section__container">
+      <div class="projects-section__content-wrapper">
+
+        <div class="projects-section__block">
+          <img src="images/projectIcon.png" alt="project" class="projects-section__icon">
+          <div class="projects-section__text">
             <h3>40+</h3>
             <p>проектов</p>
           </div>
         </div>
 
-        <div class="project__container">
-          <img src="img/projectIcon.png" alt="project" class="project-container__icon">
-          <div class="project-container__description">
+        <div class="projects-section__block">
+          <img src="images/projectIcon.png" alt="project" class="projects-section__icon">
+          <div class="projects-section__text">
             <h3>40+</h3>
             <p>проектов</p>
           </div>
         </div>
 
-        <div class="project__container">
-          <img src="img/projectIcon.png" alt="project" class="project-container__icon">
-          <div class="project-container__description">
+        <div class="projects-section__block">
+          <img src="images/projectIcon.png" alt="project" class="projects-section__icon">
+          <div class="projects-section__text">
             <h3>40+</h3>
             <p>проектов</p>
           </div>
         </div>
 
-        <div class="project__container">
-          <img src="img/projectIcon.png" alt="project" class="project-container__icon">
-          <div class="project-container__description">
-            <h3>40+</h3>
-            <p>проектов</p>
-          </div>
-
-        </div>
-        <div class="project__container">
-          <img src="img/projectIcon.png" alt="project" class="project-container__icon">
-          <div class="project-container__description">
+        <div class="projects-section__block">
+          <img src="images/projectIcon.png" alt="project" class="projects-section__icon">
+          <div class="projects-section__text">
             <h3>40+</h3>
             <p>проектов</p>
           </div>
         </div>
 
-        <div class="project__container">
-          <img src="img/projectIcon.png" alt="project" class="project-container__icon">
-          <div class="project-container__description">
+        <div class="projects-section__block">
+          <img src="images/projectIcon.png" alt="project" class="projects-section__icon">
+          <div class="projects-section__text">
             <h3>40+</h3>
             <p>проектов</p>
           </div>
         </div>
-    </div>
-    </section>
-    <section class="skills">
-      <div class ="skills-content">
-        <div class="skills__tehnology">
-          <h2>Мои навыки</h2>
-          <p class="skills-tehnology__text">Adope Photoshop</p>
-          <div class="skills-tehnology__level-gray"></div>
-          <div class="skills-tehnology__level-blue"></div>
 
-          <p class="skills-tehnology__text">Adope Photoshop</p>
-          <div class="skills-tehnology__level-gray"></div>
-          <div class="skills-tehnology__level-blue"></div>
-
-          <p class="skills-tehnology__text">Adope Photoshop</p>
-          <div class="skills-tehnology__level-gray"></div>
-          <div class="skills-tehnology__level-blue"></div>
-
+        <div class="projects-section__block">
+          <img src="images/projectIcon.png" alt="project" class="projects-section__icon">
+          <div class="projects-section__text">
+            <h3>40+</h3>
+            <p>проектов</p>
+          </div>
         </div>
-      
-        <img class="skills__me-img" src="img/me.png" alt="me">
       </div>
     </section>
-    <section class="how-i-work">
+    <section class="skills-section__container">
+      <div class="skills-section__content-wrapper">
+        <div class="skills-section__tehnology-block">
+          <h2>Мои навыки</h2>
+          <p class="skills-section__text">Adope Photoshop</p>
+          <div class="skills-section__level skills-section__level--gray"></div>
+          <div class="skills-section__level skills-section__level--blue"></div>
+
+          <p class="skills-section__text">Adope Photoshop</p>
+          <div class="skills-section__level skills-section__level--gray"></div>
+          <div class="skills-section__level skills-section__level--blue"></div>
+
+          <p class="skills-section__text">Adope Photoshop</p>
+          <div class="skills-section__level skills-section__level--gray"></div>
+          <div class="skills-section__level skills-section__level--blue"></div>
+
+        </div>
+
+        <img class="skills-section__me-img" src="images/me.png" alt="me">
+      </div>
+    </section>
+
+    <section class="work-section">
       <h2>Как я работаю</h2>
-      <p class="lorem__ipsum">Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. Lorem Ipsum
+      <p class="pharagraph">Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. Lorem Ipsum
         является стандартной
         "рыбой" для текстов на латинице с начала XVI века.</p>
-      <div class="how-i-work__img-conntainer">
-        <img class="how-i-work__code" src="img/code.png" alt="code">
-        <img class="how-i-work__play" src="img/play.png" alt="play icon">
+      <div class="work-section__img-conntainer">
+        <img class="work-section__code-img" src="images/code.png" alt="code">
+        <img class="work-section__play-img" src="images/play.png" alt="play icon">
       </div>
-
 
 
     </section>
-    <section class="pictures">
-      <div class="pictures-container picture-1">
-        <img class="pictures-container__element table" src="img/table.png" alt="table">
-        <div class = "pictures-container__element table owerlay">
-          <img class = "pictures-container__element-eye-owerlay"src="img/eye.png" alt="eye">
+    
+    
+
+    <section class="pictures-section__container">
+      <div class="pictures-section__content-wrapper picture-1">
+        <img class="pictures-section__element" src="images/table.png" alt="table">
+        <div class="pictures-section__element-wrapper">
+          <img class="pictures-section__element-eye" src="images/eye.png" alt="eye">
         </div>
       </div>
-      <div class="pictures-container picture-2">
-        <img class="pictures-container__element workers" src="img/workers.png" alt="table">
-        <div class = "pictures-container__element table owerlay">
-          <img class = "pictures-container__element-eye-owerlay"src="img/eye.png" alt="eye">
+
+      <div class="pictures-section__content-wrapper picture-2">
+        <img class="pictures-section__element " src="images/workers.png" alt="workers">
+        <div class="pictures-section__element-wrapper">
+          <img class="pictures-section__element-eye" src="images/eye.png" alt="eye">
         </div>
       </div>
-      <div class="pictures-container picture-3">
-        <img class="pictures-container__element table" src="img/table.png" alt="table">
-        <div class = "pictures-container__element table owerlay">
-          <img class = "pictures-container__element-eye-owerlay"src="img/eye.png" alt="eye">
+
+       <div class="pictures-section__content-wrapper picture-3">
+        <img class="pictures-section__element" src="images/table.png" alt="table">
+        <div class="pictures-section__element-wrapper">
+          <img class="pictures-section__element-eye" src="images/eye.png" alt="eye">
         </div>
       </div>
-      <div class="pictures-container picture-4">
-        <img class="pictures-container__element workers" src="img/workers.png" alt="table">
-        <div class = "pictures-container__element table owerlay">
-          <img class = "pictures-container__element-eye-owerlay"src="img/eye.png" alt="eye">
+
+      <div class="pictures-section__content-wrapper picture-4">
+        <img class="pictures-section__element" src="images/workers.png" alt="workers">
+        <div class="pictures-section__element-wrapper">
+          <img class="pictures-section__element-eye" src="images/eye.png" alt="eye">
         </div>
       </div>
-      <div class="pictures-container picture-5">
-        <img class="pictures-container__element workers" src="img/workers.png" alt="table">
-        <div class = "pictures-container__element table owerlay">
-          <img class = "pictures-container__element-eye-owerlay"src="img/eye.png" alt="eye">
+      <div class="pictures-section__content-wrapper picture-5">
+        <img class="pictures-section__element" src="images/workers.png" alt="workers">
+        <div class="pictures-section__element-wrapper">
+          <img class="pictures-section__element-eye" src="images/eye.png" alt="eye">
         </div>
       </div>
-      <div class="pictures-container picture-6">
-        <img class="pictures-container__element table" src="img/table.png" alt="table">
-        <div class = "pictures-container__element table owerlay">
-          <img class = "pictures-container__element-eye-owerlay"src="img/eye.png" alt="eye">
+
+      <div class="pictures-section__content-wrapper picture-6">
+        <img class="pictures-section__element" src="images/table.png" alt="table">
+        <div class="pictures-section__element-wrapper">
+          <img class="pictures-section__element-eye" src="images/eye.png" alt="eye">
         </div>
       </div>
-      <div class="pictures-container picture-7">
-        <img class="pictures-container__element workers" src="img/workers.png" alt="table">
-        <div class = "pictures-container__element table owerlay">
-          <img class = "pictures-container__element-eye-owerlay"src="img/eye.png" alt="eye">
+
+      <div class="pictures-section__content-wrapper picture-7">
+        <img class="pictures-section__element" src="images/workers.png" alt="workers">
+        <div class="pictures-section__element-wrapper">
+          <img class="pictures-section__element-eye" src="images/eye.png" alt="eye">
         </div>
       </div>
-      <div class="pictures-container picture-8">
-        <img class="pictures-container__element table" src="img/table.png" alt="table">
-        <div class = "pictures-container__element table owerlay">
-          <img class = "pictures-container__element-eye-owerlay"src="img/eye.png" alt="eye">
+
+      <div class="pictures-section__content-wrapper picture-8">
+        <img class="pictures-section__element" src="images/table.png" alt="table">
+        <div class="pictures-section__element-wrapper">
+          <img class="pictures-section__element-eye" src="images/eye.png" alt="eye">
         </div>
       </div>
-      
+
     </section>
-    <section class="connection">
-      <div class="connection__container">
+
+    <section class="connection-section__container">
+      <div class="connection-section__content-wrapper">
         <h2>Хотите веб-сайт?</h2>
-        <p class ="lorem__ipsum">Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной "рыбой" для текстов на латинице с начала XVI века.</p>
-        <form class = "connection-container__form">
-          <div class="connection-container__form-header">
-            <input type = "text" placeholder="Ваше имя" class ="connection-container__form-header-element">
-            <input type = "email" placeholder="Ваш email" class ="connection-container__form-header-element">
+        <p class="pharagraph">Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. Lorem Ipsum
+          является стандартной "рыбой" для текстов на латинице с начала XVI века.</p>
+        <form class="connection-section__form">
+          <div class="connection-section__form-header">
+            <input type="text" placeholder="Ваше имя" class="connection-section__form-header-element">
+            <input type="email" placeholder="Ваш email" class="connection-section__form-header-element">
           </div>
-          <textarea placeholder="Сообщение" class ="connection-container__message"></textarea>
-          <input class="blue__btn" type ="submit" value="ОТПРАВИТЬ">
+          <textarea placeholder="Сообщение" class="connection-section__message"></textarea>
+          <input class="btn" type="submit" value="ОТПРАВИТЬ">
         </form>
       </div>
     </section>
   </main>
-  <footer>
-    <div class ="footer__content">
+  <footer class="page-footer">
+    <div class="footer__content-wrapper">
       <div class="footer__container">
         <h3>Иванов Иван</h3>
         <p class="footer-container__text">(с) 2018. Все права защищены.</p>
       </div>
       <nav class="footer__social">
-        <li class="footer-social__li"><img class="footer-social__icon" src="img/vkIcon.png" alt="vk"><li>
-        <li class="footer-social__li"><img class="footer-social__icon" src="img/vkIcon.png" alt="vk"><li>
-        <li class="footer-social__li_none"><img class="footer-social__icon" src="img/vkIcon.png" alt="vk"><li>
+        <img class="footer-social__icon" src="images/vkIcon.png" alt="vk">
+        <img class="footer-social__icon" src="images/vkIcon.png" alt="vk">
+        <img class="footer-social__icon--border-none" src="images/vkIcon.png" alt="vk">
       </nav>
     </div>
   </footer>

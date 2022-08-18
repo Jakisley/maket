@@ -25,7 +25,7 @@ h3{
 p{
   font-size: 16px;
 }
-.blue__btn{
+.btn{
   width: 225px;
   height: 65px;
   background-color: #34547A;
@@ -34,7 +34,7 @@ p{
   cursor: pointer;
   border: none;
 }
-.lorem__ipsum{
+.pharagraph{
   font-family: 'Roboto';
   font-style: normal;
   font-weight: 400;
@@ -42,16 +42,14 @@ p{
   line-height: 28px;
   max-width: 540px;
   text-align: center;
-  margin: auto;
-  font-size: 16px;
   color: #727272;
   margin-top: 50px;
   margin-bottom: 50px;
   }
-header{
+.page-header{
   background-color: #EEEFF1;
 }
-  .header__menu{
+  .header-menu{
     display: flex;
     justify-content: space-between;
     max-width: 1150px;
@@ -68,14 +66,6 @@ header{
       color: #34547A;
       margin-left: 20px;
     }
-  .header-menu__list{
-    display: flex;
-    align-items: center;
-  }
-    .header-menu__list-element{
-      display: flex;
-      margin-right: 45px;
-    }
     .margin-none{
       margin-right: 1px;
     }
@@ -86,60 +76,60 @@ header{
           font-size: 16px;
           line-height: 39px;
           letter-spacing: 0.1em;
+          margin-right: 45px;
         }
         .header-menu__link:hover{
           text-decoration: underline;
         }
-        .selected{
+        .header-menu__link--selected{
           color: #34547A;
         }
 
-  .design__layout{
+.design-section__container{
     display: flex;
     justify-content: center;
     padding-top: 70px;
     padding-bottom: 146px;
     background-color: #EEEFF1;
-  }
-    .design-layout-content{
+}
+
+  .design-section__content-wrapper{
       display: flex;
       max-width: 1150px;
       margin: auto;
       justify-content: space-between;
       gap: 154px;
-    }
-    .design-layout__laptop{
+  }
+
+  .design-section__laptop-img{
       max-width: 357px;
       max-height: 233px;
       margin-top: 39px;
-    }
-    .design-layout__info{
-      display: block;
-    }
+  }
 
-    .design-layout__info-text{
+  .design-section__text-container{
+      display: block;
+  }
+
+  .design-section__text{
       text-align: left;
-    }
-    
-    .about-me{
+  }
+
+  .about-me-section{
       display: flex;
       flex-direction: column;
       align-items: center;
       padding-top: 119px;
       padding-bottom: 100px;
-    }
-    .about-me__description{
-      max-width: 540px;
-      text-align: center;
-    }
-    .projects{
-      background-color: #34547A;
-      color: #EEEFF1;
-      display: flex;
-      justify-content: center;
+  }
+.projects-section__container{
+    background-color: #34547A;
+    color: #EEEFF1;
+    display: flex;
+    justify-content: center;
 
     }
-    .projects_content{
+    .projects-section__content-wrapper{
       display: flex;
       margin-top: 100px;
       margin-bottom: 100px;
@@ -150,22 +140,22 @@ header{
       gap: 52px;
       flex-wrap: wrap;
     }
-    .project__container{
+    .projects-section__block{
       display:flex;
     }
-    .project-container__icon{
+    .projects-section__icon{
       width:46px;
       height:50px;
     }
-    .project-container__description{
+    .projects-section__text{
       margin-left: 20px;
     }
 
-    .skills{
+    .skills-section__container{
 
       margin: 102px 20px 102px 20px;
     }
-    .skills-content{
+    .skills-section__content-wrapper{
       display: flex;
       justify-content: space-between;
       max-width: 1150px;
@@ -173,33 +163,35 @@ header{
       margin-left: auto;
       flex-wrap: wrap-reverse;
     }
-    .skills__tehnology{
+    .skills-section__tehnology-block{
       display: flex;
       flex-direction: column;
       width: 450px;
       align-items: stretch;
       margin-top: 102px;
     }
-    .skills-tehnology__text{
+    .skills-section__text{
       margin-top: 29px;
       margin-bottom: 19px;
     }
-    .skills-tehnology__level-gray{
+    .skills-section__level{
       max-width: 445px;
       height: 4px;
+    }
+  
+    .skills-section__level--gray{
       background-color: #C4C4C5;
     }
-    .skills-tehnology__level-blue{
-      max-width: 80%;
-      height: 4px;
+    .skills-section__level--blue{
+      width: 80%;
       background-color: #34547A;
       margin-top: -4px;
     }
-    .skills__me-img{
+    .skills-section__me-img{
       max-height:450px;
       max-width: 555px;
     }
-    .how-i-work{
+    .work-section{
       background-color: #EEEFF1;
       padding-top: 100px;
       padding-bottom: 100px;
@@ -208,20 +200,20 @@ header{
       align-items: center;
     }
 
-    .how-i-work__img-conntainer{
+    .work-section__img-conntainer{
       max-width: 1110px;
       max-height: 600px;
       position: relative;
       padding: 20px;
       cursor: pointer;
     }
-    .how-i-work__code{
+    .work-section__code-img{
       position: relative;
       z-index: 0;
       max-width: 100%;
       max-height: 100%;
     }
-    .how-i-work__play{
+    .work-section__play-img{
       z-index: 1;
       position: absolute;
       margin: auto;
@@ -231,29 +223,29 @@ header{
       right: 0;
       width: 75px;
     }
-    .pictures{
+    .pictures-section__container{
       margin-top: 28px;
       margin-bottom: 28px;
       width: 100%;
       display: flex;
       flex-wrap: wrap;
     }
-    .pictures-container{
+    .pictures-section__content-wrapper{
       display: flex;
       position: relative;
       flex: 0 0 25%;
     }
-    .pictures-container__element{
+    .pictures-section__element{
       width: 100%;
       object-fit: contain;
     }
   
-    .pictures-container__element:hover +.owerlay{
+    .pictures-section__element:hover +.pictures-section__element-wrapper{
       cursor: pointer;
       display: block;
       
     }
-    .pictures-container__element-eye-owerlay{
+    .pictures-section__element-eye{
       position: absolute;
       margin: auto;
       top: 0;
@@ -263,17 +255,19 @@ header{
       width: 100px;
       height: 57px;
     }
-    .owerlay:hover{
+    .pictures-section__element-wrapper:hover{
       display: block;
       cursor: pointer;
     }
 
-    .owerlay{
+    .pictures-section__element-wrapper{
       display:none;
+      width: 100%;
+      object-fit: contain;
       background-color: rgba(52, 84, 122, 0.8);
       margin-left: -100%;
     }
-    .connection{
+    .connection-section__container{
       display: flex;
       padding-top: 100px;
       padding-bottom: 100px;
@@ -281,33 +275,33 @@ header{
       justify-content: center;
       background-color: #EEEFF1;
     }
-    .connection__container{
+    .connection-section__content-wrapper{
       display: flex;
       flex-direction: column;
       align-items: center;
       padding: 0px 20px 0px 20px;
     }
   
-    .connection-container__form{
+    .connection-section__form{
       display: flex;
       flex-direction: column;
       align-items: center;
     }
-    .connection-container__form-header{
+    .connection-section__form-header{
       width: 540px;
       display: flex;
       flex-direction: row;
       justify-content: space-between;
       flex-wrap: wrap;
     }
-    .connection-container__form-header-element{
+    .connection-section__form-header-element{
       height: 50px;
       width: 238px;
       padding-left: 20px;
       margin-bottom: 20px;
       border:none;
     }
-    .connection-container__message{
+    .connection-section__message{
       width: 520px;
       height: 175px;
       margin-bottom: 50px;
@@ -316,7 +310,7 @@ header{
       resize: none;
       border: none;
     }
-    footer{
+    .page-footer{
       padding-top: 50px;
       padding-bottom: 50px;
       min-height: 50px;
@@ -325,7 +319,7 @@ header{
       padding-left: 90px;
       padding-right: 90px;
     }
-    .footer__content{
+    .footer__content-wrapper{
       max-width: 1150px;
       display: flex;
       flex-direction: row;
@@ -346,35 +340,37 @@ header{
     flex-direction: row;
     list-style-type: none;
     }
-    .footer-social__li{
+    .footer-social__icon{
       margin-right: 21px;
       margin-top: -8px;
     }
-    .footer-social__li-none{
+    .footer-social__icon--border-none{
       margin-top: -8px;
+
     }
+    
     @media(max-width:1118px){
-      .projects_content{
+      .projects-section__content-wrapper{
         gap: 80px;
         width: 771px;
       }
     }
 
-    @media(max-width:1118px){
-      .projects_content{
+    @media(max-width:719px){
+      .projects-section__content-wrapper{
         gap: 45px;
         width: 343px;
       }
     }
 
     @media (max-width:1044px){
-      .skills-content{
+      .skills-section__content-wrapper{
         justify-content: center;
       }
       .skills h2{
         text-align: center;
       }
-      .skills__tehnology{
+      .skills-section__tehnology-block{
         margin-top: 98px;
       }
       
@@ -384,11 +380,11 @@ header{
       h1{
         font-size: 36px;
       }
-      .design__layout{
+      .design-section__container{
         flex-direction: column;
         align-items: center;
       }
-      .design-layout-content {
+      .design-section__content-wrapper{
         display: flex;
         max-width: 1150px;
         margin: auto;
@@ -397,26 +393,26 @@ header{
         text-align: center;
         align-items: center;
       }
-      .design-layout__info{
+      .design-section__text-container{
         margin-top: 60px;
         margin-left: 0px;
         text-align:center ;
       }
-      .design-layout__info-text{
+      .design-section__text{
         text-align: center;
       }
-      .design-layout__laptop{
+      .design-section__laptop-img{
         width: 298px;
         height: 195px;
       }
-      .lorem__ipsum{
+      .pharagraph{
         margin-left: 20px;
         margin-right: 20px;
       }
     }
 
     @media (max-width:718px){
-      .pictures-container{
+      .pictures-section__content-wrapper{
         flex: 0 0 50%;
       }
       .picture-3{
@@ -439,7 +435,7 @@ header{
       }
 
     }
-    @media (max-width:742px){
+    @media (max-width:799px){
       .header__menu{
         width: 0;
         margin: 0;
@@ -452,19 +448,19 @@ header{
       .footer-container__text {
       margin-bottom: 40px;
       }
-      .footer__content {
+      .footer__content-wrapper {
         justify-content: center;
 
     }
     }
       @media (max-width:581px){
-        .connection-container__form-header {
+        .connection-section__form-header {
           width: 342px;
         }
-        .connection-container__form-header-element{
+        .connection-section__form-header-element{
           width:  100%;
         }
-        .connection-container__message {
+        .connection-section__message {
           width: 320px;
         }
       }
